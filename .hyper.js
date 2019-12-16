@@ -13,7 +13,7 @@ module.exports = {
     fontSize: 18,
     // font family with optional fallbacks
     fontFamily: '"Menlo", monospace',
-    // 备选：Menlo, Monaco, 'Courier New', monospace
+    // 备选：Menlo, Monaco, 'Courier New', 这个引号应该不加，monospace
     // text color
     foregroundColor: '#fff', // currently overwritten by plugin
     backgroundColor: '#000', // currently overwritten by plugin
