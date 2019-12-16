@@ -10,10 +10,10 @@ module.exports = {
     updateChannel: 'stable',
 
     // default font size in pixels for all tabs
-    fontSize: 16,
+    fontSize: 18,
     // font family with optional fallbacks
-    fontFamily: '"MesloLGMDZ Nerd Font", monospace',
-
+    fontFamily: '"Menlo", monospace',
+    // 备选：Menlo, Monaco, 'Courier New', monospace
     // text color
     foregroundColor: '#fff', // currently overwritten by plugin
     backgroundColor: '#000', // currently overwritten by plugin
