@@ -86,15 +86,16 @@ add-zsh-hook precmd tabTitle
 alias gam="git add --all && git commit -m"
 alias gs="git status"
 alias gp="git pull"
-
+alias gb="git branch"
 alias gcm="git commit -m"
-alias gcam='git commit -a -m'
+alias gac='git commit -a -m'
 alias gca="git commit --amend --no-edit"
 alias gcae="git commit --amend"
 alias gcaa="git add --all && git commit --amend --no-edit"
 alias gcaae="git add --all && git commit --amend"
 alias gap="git add -p"
 alias gnope="git checkout ."
+alias gco="git checkout"
 alias gwait="git reset HEAD"
 alias gundo="git reset --soft HEAD^"
 alias greset="git clean -f && git reset --hard HEAD" # Removes all changes, even untracked files
@@ -165,3 +166,7 @@ setopt appendhistory
 
 # 添加User下面的bin目录
 export PATH="$PATH:$HOME/bin"
+
+# Go
+export GOPATH=/Users/$USER/go
+export PATH=$GOPATH/bin:$PATH
