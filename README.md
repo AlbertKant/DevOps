@@ -20,6 +20,14 @@ https://www.robertcooper.me/elegant-development-experience-with-zsh-and-hyper-te
 .zshrc
 .hyper.js
 
+##### 用 Onedrive 同步这两个文件
+命令（两个文件类似）
+
+mv ~/.hyper.js ~/OneDrive/0\ Index/mac_config/.hyper.js
+rm ~/.hyper.js (如有必要)
+ln -s ~/OneDrive/0\ Index/mac_config/.zshrc ~/.zshrc
+
+
 #### 安装JS开发环境
 我用NVM
 
