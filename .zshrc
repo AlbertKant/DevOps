@@ -11,7 +11,7 @@ export ANDROID_HOME=~/Library/Android/sdk
 # NVM directory variable
 export NVM_DIR="$HOME/.nvm"
 # Arc 
-export PATH="$HOME/App/arcanist/bin:$PATH"
+export PATH="$HOME/Apps/arcanist/bin:$PATH"
 
 #------------------
 # PATH Manipulations
@@ -147,7 +147,7 @@ promptinit
 prompt spaceship
 
 # Add colors to terminal commands (green command means that the command is valid)
-source /Users/whale/App/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/Apps/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # auto suggestions
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
